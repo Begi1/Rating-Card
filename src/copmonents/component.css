@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,700;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.gap-21 {
+    gap: 21px;
+}
+
+.background {
+    background-color: #131518;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 412px;
+    height: 416px;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 30px;
+    padding: 32px;
+}
+
+.star-icon {
+    width: 48px;
+    height: 48px;
+    background-color: #262E38;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+h1 {
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #969FAD;
+    margin-bottom: 24px;
+}
+
+.backgroundWhite {
+    background-color: #FFF;
+}
+
+.backgroundBlack {
+    background-color: #262E38;
+}
+
+li {
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #7C8798;
+    list-style-type: none;
+    width: 51px;
+    height: 51px;
+    background-color: #262E38;
+    border-radius: 100%;
+    padding: 14px;
+    cursor: pointer;
+}
+
+li:hover {
+    background: #FFF;
+}
+
+button {
+    color: #fff;
+    width: 341px;
+    height: 45px;
+    background: #FC7614;
+    border-radius: 22.5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 32px;
+}
+
+button:hover {
+    color: #FC7614;
+    background: #fff;
+}
+
+.thxcard {
+    width: 412px;
+    height: 416px;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 30px;
+    padding: 32px;
+    text-align: center;
+}
+
+h5 {
+    width: 193px;
+    height: 32px;
+    background-color: #262E38;
+    border-radius: 22.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Overpass';
+    color: #FC7614;
+    margin: 32px;
+    margin-left: 80px;
+}
